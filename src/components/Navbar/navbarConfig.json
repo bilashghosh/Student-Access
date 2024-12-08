@@ -1,0 +1,31 @@
+{
+    "logo": {
+      "text": "Academy Exam",
+      "link": "/"
+    },
+    "menuItems": [
+      {
+        "text": "Dashboard",
+        "link": "/dashboard",
+        "icon": "fas fa-tachometer-alt"
+      },
+      {
+        "text": "Pricing",
+        "link": "/pricing",
+        "icon": "fas fa-dollar-sign"
+      },
+      {
+        "text": "About Us",
+        "link": "/about",
+        "icon": "fas fa-info-circle"
+      }
+   
+    ],
+    "button": {
+      "text": "Login",
+      "icon": "fas fa-sign-in-alt",
+      "link": "/login"
+    },
+    "transparent": false
+  }
+  

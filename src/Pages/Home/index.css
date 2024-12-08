@@ -1,0 +1,86 @@
+    .main-container {
+
+        background-color: #fffefc;
+
+
+    }
+
+    .top-container {
+        text-align: center;
+        width: 100%;
+        background-color: #01579B;
+    }
+
+    .top-text {
+        color: #eee;
+        font-family: cursive;
+    }
+
+    .gray-container {
+        background-color: rgb(191, 202, 202);
+
+    }
+
+    .gray-container-text {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    .login-card {
+
+        background-color: #fafcfc;
+        width: 25%;
+        padding: 35px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding-top: 50px;
+        margin: auto;
+        margin-top: 80px;
+        
+
+    }
+
+
+
+
+    .form {
+        margin-bottom: 25px;
+        border: solid 1px #a8a2a2;
+        border-radius: 5px;
+
+    }
+
+   
+    .heading {
+        color: #5b6064;
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+
+    .button-login {
+        background-color: #01579B;
+        border: none;
+        color: white;
+        padding: 5px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .mobile-view{
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+    }

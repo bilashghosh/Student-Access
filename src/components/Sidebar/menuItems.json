@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Dashboard",
+        "icon": "fas fa-solid fa-house-user",
+        "path": "/dashboard/home1"
+    },
+    {
+        "name": "Schedule Exams",
+        "icon": "fas solid fa-book-open",
+        "path": "/dashboard/scheduleexam"
+    },
+    {
+        "name": "Questions",
+        "icon": "fas fa-question-circle",
+        "path": "/dashboard/question"
+    },
+    {
+        "name": "Students",
+        "icon": "fas fa-users",
+        "path": "",
+        "submenu": [
+            { "name": "Base", "path": "/dashboard/components/base" },
+            { "name": "Buttons", "path": "/dashboard/components/buttons" },
+            { "name": "Charts", "path": "/dashboard/components/charts" },
+            { "name": "Forms", "path": "/dashboard/components/forms" },
+            { "name": "Icons", "path": "/dashboard/components/icons" },
+            { "name": "Notifications", "path": "/dashboard/components/notifications" },
+            { "name": "Widgets", "path": "/dashboard/components/widgets" }
+        ]
+    },
+    {
+        "name": "Settings",
+        "icon": "fas fa-cogs",
+        "path": "/dashboard/notifications"
+    }
+]

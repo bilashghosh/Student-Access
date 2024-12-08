@@ -1,0 +1,66 @@
+.topbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: calc(100% - 250px);  /* Adjusting width to account for sidebar */
+    left: 250px;
+    top: 0;
+    z-index: 1000;
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.topbar-right .topbar-icon {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+
+.user-icon {
+    font-size: 22px;  /* Slightly larger for the user icon */
+}
+
+
+.DropdownProfile{
+    position: absolute;
+    top: 4.5rem;
+    right: 1.5rem;
+    width: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.DropdownProfile::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+
+
+}
